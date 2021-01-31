@@ -2,6 +2,7 @@
 shared test programs for the CS241 class
 
 ### Jayanth Rajakumar (jrajakum@uci.edu)
-| File &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| Description |
+| File| Description |
 | ----------- | --- |
-| arithmetic-01.src        | Let and I/O call statements within a single basic block. Tests common subexpression elimination and constant handling.|
+| arithmetic-01.src | Assignment and built-in call statements within a single basic block. Tests copy propagation, common subexpression elimination and constant handling.|
+| arithmetic-02.src | Same as above. |
