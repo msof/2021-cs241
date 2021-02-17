@@ -13,3 +13,10 @@ shared test programs for the CS241 class
 | if-05.src | A typical if statement example with a phi. |
 | if-06.src | Nested if. Two phis in total. |
 | if-07.src | Nested if - program to find the greatest of three numbers. No phis but useful for testing unconditional branches in then blocks. |
+| while-01.src | A simple while loop with three constants and two condition block phis. | 
+| while-02.src | Similar, but there is a small difference in the renaming of a value in the loop body. |
+| while-03.src |  If statement inside while loop |
+| while-04.src | Nested while loop |
+| while-05.src | Simple while example |
+| while-06.src | Similar to above, but here there is a variable being initialized inside the loop body and never used again in the follow block till the end of the program. Useful to check if we are eliminating unnecessary phis. |
+| while-07.src | While loop inside the then block of an if statement. |
