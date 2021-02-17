@@ -20,3 +20,16 @@ shared test programs for the CS241 class
 | while-05.src | Simple while example |
 | while-06.src | Similar to above, but here there is a variable being initialized inside the loop body and never used again in the follow block till the end of the program. Useful to check if we are eliminating unnecessary phis. |
 | while-07.src | While loop inside the then block of an if statement. |
+
+
+### André Rösti (aroesti@uci.edu)
+
+| File | Comments |
+| ---- | -------- |
+| aroesti/array_aliasing.smpl | The same array item is aliased by two identifiers; a store in between must kill the common subexpression elimination for the result to be valid. |
+| aroesti/array_no_aliasing_1.smpl | The same array item is aliased by two identifiers; the store in between is to a different item. An aggressive CSE may eliminate the redundant load, since it is to a different item. |
+| aroesti/array_no_aliasing_2.smpl | The same array item is aliased by two identifiers; the store in between is to a completely different array. CSE may eliminate the redundant load, since we can guarantee it is to a different array. |
+| aroesti/array_simple.smpl | Allocates an array, stores to it and reads a value from it. |
+| aroesti/double_loop.smpl | A loop nested in a loop tests whether phi node placement is correct. |
+| aroesti/min_or_max.smpl | Tests all major language features: Functions, arrays, loops, if statements. |
+| aroesti/example.smpl | The example code given in the assignment. |
