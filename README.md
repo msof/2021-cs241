@@ -33,3 +33,16 @@ shared test programs for the CS241 class
 | aroesti/double_loop.smpl | A loop nested in a loop tests whether phi node placement is correct. |
 | aroesti/min_or_max.smpl | Tests all major language features: Functions, arrays, loops, if statements. |
 | aroesti/example.smpl | The example code given in the assignment. |
+
+
+### Titus Trifan (mtrifan@uci.edu)
+
+| File | Comments |
+| ---- | -------- |
+| mtrifan/test_phi_rename.txt |tests if the phi generated for the inner while statement contains the index of the phi propagated in the outer while. |
+| mtrifan/test_uninit_var.txt | The variables b and c are uninitialized on one of the branches, useful for checking if they are initialized with 0 in the phi instructions. |
+| mtrifan/test_while_if_while.txt | Test correct phi generation and renaming. Useful to check phi propagation in more than one level down. |
+| mtrifan/test_while_while_while.txt | Same as above, but with 3 while statements. |
+| mtrifan/test_load_inside_if.txt | The load inside the if statement should be not be generated, while the load immediately after the if should be generated, due to the store operation. |
+
+
