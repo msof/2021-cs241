@@ -6,7 +6,7 @@ please add your name to a time slot and then commit your changes back to the Git
 
 Thursday, March 18, 2021
 
-4.00pm
+4.00pm    Jayanth Rajakumar
 
 4.30pm
 
