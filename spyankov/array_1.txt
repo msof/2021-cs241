@@ -1,0 +1,14 @@
+main
+var a,b,c;
+array[10] a, b;
+array[10][15] c;
+{
+let a[2] <- 234;
+let b[1] <- call InputNum ();
+let a <- call InputNum ();
+let b <- call InputNum ();
+let b[4] <- a[5];
+let c[1][1+2] <- b + a;
+call OutputNum(c[0][10]);
+}
+.
