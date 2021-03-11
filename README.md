@@ -45,4 +45,19 @@ shared test programs for the CS241 class
 | mtrifan/test_while_while_while.txt | Same as above, but with 3 while statements. |
 | mtrifan/test_load_inside_if.txt | The load inside the if statement should be not be generated, while the load immediately after the if should be generated, due to the store operation. |
 
+### Semen Pyankov (spyankov@uci.edu)
+
+| File | Comments |
+| ---- | -------- |
+| spyankov/array_1.txt | Array allocation, indexing via an expression, multidimensional array |
+| spyankov/array_3.txt | CSE for array loads (b[2] in the last code line should use previous IR instructions and there should not be a duplicating load) |
+| spyankov/if_phi_CSE.txt | CSE for an if-then-else diamond: a+b expression should not be duplicated; also useful to check phi nodes |
+| spyankov/if_nested_if.txt | Nested if statements |
+| spyankov/then_nested_while.txt | While loop is inside of an if-then statement |
+| spyankov/else_nested_while.txt | While loop is inside of an if-else statement |
+| spyankov/while_1.txt | While loop with a modified variable a inside of a loop (check phi nodes) |
+| spyankov/while_2.txt | If statement inside of a while (another source file to check phi nodes) |
+| spyankov/while_4.txt | While loop (yet another source file to check phi nodes) |
+| spyankov/while_nested_if.txt | If statement is inside of a while loop |
+| spyankov/while_nested_while.txt | While loop is inside of a while loop |
 
