@@ -1,6 +1,0 @@
-main{
-    let val1 <- 0;
-    let mat1[3] <- 0;
-    let mat1[3][4] <- 0;
-    let mat1[3][5] <- 0;
-}.

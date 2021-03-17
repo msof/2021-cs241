@@ -1,5 +1,0 @@
-main{
-    let val1 <- 3 * 5;
-    let val2 <- 4 / 2;
-    let val3 <- 8 * 3 / 6;
-}.

@@ -1,8 +1,0 @@
-main
-var id1;
-var id2, id3;
-array [2] arr1;
-array [2][3] arr2;
-{
-    return 0;
-}.

@@ -1,8 +1,0 @@
-main
-void function OutputTwo(a, b); {
-    call OutputNum(a);
-    call OutputNum(b);
-};
-{
-    call OutputTwo(3, 5;
-}.

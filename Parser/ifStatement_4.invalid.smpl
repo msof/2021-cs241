@@ -1,3 +1,0 @@
-main{
-    if 3 < 5 call OutputNum(1) fi;
-}.

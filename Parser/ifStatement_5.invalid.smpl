@@ -1,3 +1,0 @@
-main{
-    if then call OutputNum(1) fi;
-}.

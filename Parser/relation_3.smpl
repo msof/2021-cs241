@@ -1,3 +1,0 @@
-main{
-    if 5 > 4 then return 1; fi;
-}.
